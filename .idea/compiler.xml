@@ -8,12 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="eureka-server2" />
-        <module name="spring-cloud-parent" />
+        <module name="hello-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server2" target="1.8" />
+      <module name="hello-service" target="1.8" />
       <module name="spring-cloud-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
