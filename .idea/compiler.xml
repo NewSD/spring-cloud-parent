@@ -9,6 +9,7 @@
         <module name="eureka-server" />
         <module name="eureka-server2" />
         <module name="hello-service" />
+        <module name="hystrix-dashboard" />
         <module name="ribbon-consumer" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server2" target="1.8" />
       <module name="hello-service" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
       <module name="spring-cloud-parent" target="1.5" />
     </bytecodeTargetLevel>
