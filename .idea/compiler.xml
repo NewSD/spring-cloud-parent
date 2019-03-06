@@ -12,6 +12,7 @@
         <module name="hystrix-dashboard" />
         <module name="ribbon-consumer" />
         <module name="turbine" />
+        <module name="turbine-amqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="ribbon-consumer" target="1.8" />
       <module name="spring-cloud-parent" target="1.5" />
       <module name="turbine" target="1.8" />
+      <module name="turbine-amqp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

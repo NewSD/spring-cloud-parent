@@ -7,6 +7,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ribbon-consumer/pom.xml" afterPath="$PROJECT_DIR$/ribbon-consumer/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" afterPath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/turbine/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/turbine/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/ribbon-consumer/target/" />
     <ignored path="$PROJECT_DIR$/hystrix-dashboard/target/" />
     <ignored path="$PROJECT_DIR$/turbine/target/" />
+    <ignored path="$PROJECT_DIR$/turbine-amqp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,45 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ribbon-consumer.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ribbon-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="427">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/niu/spring/HelloApplication.java">
+      <file leaf-file-name="TurbineAmqpApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine-amqp/src/main/java/com/niu/spring/TurbineAmqpApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/niu/spring/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="288">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +80,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/turbine/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="144">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -130,7 +114,27 @@
         <entry file="file://$PROJECT_DIR$/turbine/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine-amqp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine-amqp/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,10 +180,15 @@
         <option value="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/niu/spring/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/niu/spring/HystrixDashBoardApp.java" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/ribbon-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/src/main/java/com/niu/spring/TurbineApplication.java" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine-amqp/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine-amqp/src/main/java/com/niu/spring/App.java" />
+        <option value="$PROJECT_DIR$/turbine-amqp/src/main/java/com/niu/spring/TurbineStreamApp.java" />
+        <option value="$PROJECT_DIR$/turbine-amqp/src/main/java/com/niu/spring/TurbineAmqpApp.java" />
         <option value="$PROJECT_DIR$/turbine/src/main/resources/application.properties" />
       </list>
     </option>
@@ -271,7 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="turbine" />
+              <option name="myItemId" value="turbine-amqp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,39 +294,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="turbine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="turbine" />
+              <option name="myItemId" value="turbine-amqp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -329,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="turbine" />
+              <option name="myItemId" value="turbine-amqp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -340,10 +323,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -355,7 +334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="turbine" />
+              <option name="myItemId" value="turbine-amqp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -385,7 +364,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon-consumer" />
+              <option name="myItemId" value="turbine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,7 +378,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon-consumer" />
+              <option name="myItemId" value="turbine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -417,7 +396,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon-consumer" />
+              <option name="myItemId" value="turbine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -443,7 +422,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon-consumer" />
+              <option name="myItemId" value="turbine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -480,6 +459,9 @@
     <property name="SearchEverywhereHistoryKey" value="RibbonLo&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient&#10;Ribbon&#9;PSI&#9;JAVA://com.netflix.ribbon.Ribbon" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceGit\spring-cloud-parent\turbine-amqp\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceGit\spring-cloud-parent\eureka-server\src" />
     </key>
@@ -496,27 +478,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TurbineApplication">
-    <configuration default="false" name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.niu.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.niu.spring.EurekaServerApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="eureka-server" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TurbineAmqpApp">
     <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -594,6 +556,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="turbine" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TurbineAmqpApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.niu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.niu.spring.TurbineAmqpApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="turbine-amqp" />
       <envs />
       <method />
     </configuration>
@@ -1023,19 +1005,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ConsumerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EurekaServerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Application" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HelloApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Application.HystrixDashBoardApp" />
-      <item index="6" class="java.lang.String" itemvalue="Application.TurbineApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HystrixDashBoardApp" />
+      <item index="5" class="java.lang.String" itemvalue="Application.TurbineApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Application.TurbineAmqpApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TurbineApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TurbineAmqpApp" />
         <item index="1" class="java.lang.String" itemvalue="Application.HystrixDashBoardApp" />
         <item index="2" class="java.lang.String" itemvalue="Application.HelloApplication" />
         <item index="3" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="4" class="java.lang.String" itemvalue="Application.EurekaServerApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TurbineApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1055,16 +1037,15 @@
       <workItem from="1551594978306" duration="2295000" />
       <workItem from="1551777692681" duration="5203000" />
       <workItem from="1551855713603" duration="23000" />
-      <workItem from="1551856397792" duration="5038000" />
+      <workItem from="1551856397792" duration="6086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12559000" />
+    <option name="totallyTimeSpent" value="13607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1817" height="1102" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1117,38 +1098,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ribbon-consumer/src/main/java/com/niu/spring/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/niu/spring/HelloApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1170,9 +1119,9 @@
         <state relative-caret-position="396">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1476,18 +1425,10 @@
         <state relative-caret-position="208">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,14 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/turbine/src/main/java/com/niu/spring/TurbineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1526,10 +1459,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-amqp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-amqp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-amqp/src/main/java/com/niu/spring/TurbineAmqpApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/turbine/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="144">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1537,7 +1514,7 @@
     <entry file="file://$PROJECT_DIR$/turbine/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1594,7 +1571,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>turbine</last-edited>
+          <last-edited>turbine-amqp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
