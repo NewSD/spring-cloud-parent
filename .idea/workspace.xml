@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14236960-cbc3-4e92-8a38-d2a900068e06" name="Default" comment="" />
+    <list default="true" id="14236960-cbc3-4e92-8a38-d2a900068e06" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -91,7 +93,7 @@
       <file leaf-file-name="TurbineApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/turbine/src/main/java/com/niu/spring/TurbineApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="460">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -954,12 +956,12 @@
       <workItem from="1551594978306" duration="2295000" />
       <workItem from="1551777692681" duration="5203000" />
       <workItem from="1551855713603" duration="23000" />
-      <workItem from="1551856397792" duration="6323000" />
+      <workItem from="1551856397792" duration="6605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13844000" />
+    <option name="totallyTimeSpent" value="14126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1817" height="1102" extended-state="0" />
@@ -1427,7 +1429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/turbine/src/main/java/com/niu/spring/TurbineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="460">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
