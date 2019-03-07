@@ -1,12 +1,11 @@
 package com.niu.spring.controller;
 
+import com.niu.spring.domain.User;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Random;
 
@@ -34,6 +33,27 @@ public class HelloController {
         logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
 
         return "Hello World";
+    }
+
+    @RequestMapping(value = "/hello2", method = RequestMethod.GET)
+    public User hello(@RequestParam String name, @RequestParam Integer age) throws Exception {
+        ServiceInstance instance = client.getLocalServiceInstance();
+        logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
+        return new User(name, age);
+    }
+
+    @RequestMapping(value = "/hello1", method = RequestMethod.GET)
+    public String hello(@RequestParam String name) throws Exception {
+        ServiceInstance instance = client.getLocalServiceInstance();
+        logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
+        return "Hello " + name;
+    }
+
+    @RequestMapping(value = "/hello3", method = RequestMethod.GET)
+    public String hello(@RequestBody User user) throws Exception {
+        ServiceInstance instance = client.getLocalServiceInstance();
+        logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
+        return "Hello " + user.getName() + ", " + user.getAge();
     }
 
 
