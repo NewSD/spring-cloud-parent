@@ -27,9 +27,9 @@ public class HelloController {
         ServiceInstance instance = client.getLocalServiceInstance();
 
 //        让线程在此等待几秒
-        int sleepTime = new Random().nextInt(3000);
-        logger.info("sleepTime: " + sleepTime);
-        Thread.sleep(sleepTime);
+//        int sleepTime = new Random().nextInt(3000);
+//        logger.info("sleepTime: " + sleepTime);
+//        Thread.sleep(sleepTime);
 
         logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
 
